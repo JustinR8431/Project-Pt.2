@@ -13,13 +13,13 @@ public class Customer {
 		this.address = address;
 	}
 
-	// Prints current firstname value
+	// Returns current firstname value
 	public String getFirstName() {
 
 		return firstname;
 	}
 
-	// Printes current lastname value
+	// Returns current lastname value
 	public String getLastName() {
 
 		return lastname;
@@ -49,7 +49,7 @@ public class Customer {
 		this.address = address;
 	}
 
-	// Sets value for Customer println
+	// Returns firstname, lastname and address
 	public String toString() {
 
 		return firstname + " " + lastname + " " + address;

@@ -12,31 +12,31 @@ public class Item {
 		this.itemdesc = itemdesc;
 		this.price = price;
 	}
-
+	//Returns the item name
 	public String getItemName() {
-		return this.itemname;
+		return itemname;
 	}
-
+	//Returns the item description
 	public String getItemDesc() {
-		return this.itemdesc;
+		return itemdesc;
 	}
-
+	//Returns the price
 	public double getPrice() {
-		return this.price;
+		return price;
 	}
-
+	//Changes itemname value
 	public void setItemName(String itemname) {
 		this.itemname = itemname;
 	}
-
+	//Changes itemdesc value
 	public void setItemDesc(String itemdesc) {
 		this.itemdesc = itemdesc;
 	}
-
+	//Changes price
 	public void setPrice(double price) {
 		this.price = price;
 	}
-
+	//Returns itemname, itemdesc, and price
 	public String toString() {
 		return itemname + ", " + itemdesc + ", $" + price;
 	}

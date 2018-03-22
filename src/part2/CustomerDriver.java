@@ -11,8 +11,7 @@ public class CustomerDriver {
 		Customer customer = new Customer("Joe", "Rockhead", "184 Holdthedoor Ln, Charlotte NC, 28222");
 
 		// Print first name and last name and the city of the customer
-		System.out
-				.println(customer.getFirstName() + " " + customer.getLastName() + " lives in " + customer.getAddress());
+		System.out.println(customer.getFirstName() + " " + customer.getLastName() + " lives in " + customer.getAddress());
 
 		// Print the toString for initial customer values
 		System.out.println(customer);
@@ -36,8 +35,7 @@ public class CustomerDriver {
 		customer.setAddress("853 Roundhouse Dr, Greenville SC, 29611");
 
 		// Print the new customer name and the customers address
-		System.out.println(
-				"\n" + customer.getFirstName() + " " + customer.getLastName() + " lives in " + customer.getAddress());
+		System.out.println("\n" + customer.getFirstName() + " " + customer.getLastName() + " lives in " + customer.getAddress());
 
 		// Print the toString for the new customer values
 		System.out.println(customer);
