@@ -56,7 +56,8 @@ public class Customer {
 
 		return firstname + " " + lastname + ", " + address;
 	}
-	//Adds shopping cart functions to the Customer class
+
+	// Adds shopping cart functions to the Customer class
 	public ShoppingCart getCart() {
 		return cart;
 	}

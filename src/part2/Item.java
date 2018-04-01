@@ -15,31 +15,38 @@ public class Item {
 		this.itemdesc = itemdesc;
 		this.price = price;
 	}
-	//Returns the item name
+
+	// Returns the item name
 	public String getItemName() {
 		return itemname;
 	}
-	//Returns the item description
+
+	// Returns the item description
 	public String getItemDesc() {
 		return itemdesc;
 	}
-	//Returns the price
+
+	// Returns the price
 	public double getPrice() {
 		return price;
 	}
-	//Changes itemname value
+
+	// Changes itemname value
 	public void setItemName(String itemname) {
 		this.itemname = itemname;
 	}
-	//Changes itemdesc value
+
+	// Changes itemdesc value
 	public void setItemDesc(String itemdesc) {
 		this.itemdesc = itemdesc;
 	}
-	//Changes price
+
+	// Changes price
 	public void setPrice(double price) {
 		this.price = price;
 	}
-	//Returns itemname, itemdesc, and price
+
+	// Returns itemname, itemdesc, and price
 	public String toString() {
 		return itemname + ", " + itemdesc + ", " + formatter.format(price);
 	}
