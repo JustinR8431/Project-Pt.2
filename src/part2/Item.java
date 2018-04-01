@@ -1,10 +1,13 @@
 package part2;
 
+import java.text.NumberFormat;
+
 public class Item {
 
 	private double price;
 	private String itemname;
 	private String itemdesc;
+	NumberFormat formatter = NumberFormat.getCurrencyInstance();
 
 	public Item(String itemname, String itemdesc, double price) {
 
@@ -38,7 +41,7 @@ public class Item {
 	}
 	//Returns itemname, itemdesc, and price
 	public String toString() {
-		return itemname + ", " + itemdesc + ", $" + price;
+		return itemname + ", " + itemdesc + ", " + formatter.format(price);
 	}
 
 }

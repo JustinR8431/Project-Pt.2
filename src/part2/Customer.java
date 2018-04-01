@@ -5,12 +5,14 @@ public class Customer {
 	private String firstname;
 	private String lastname;
 	private String address;
+	private ShoppingCart cart;
 
 	public Customer(String firstname, String lastname, String address) {
 
 		this.firstname = firstname;
 		this.lastname = lastname;
 		this.address = address;
+		this.cart = new ShoppingCart();
 	}
 
 	// Returns current firstname value
@@ -52,7 +54,11 @@ public class Customer {
 	// Returns firstname, lastname and address
 	public String toString() {
 
-		return firstname + " " + lastname + " " + address;
+		return firstname + " " + lastname + ", " + address;
+	}
+	//Adds shopping cart functions to the Customer class
+	public ShoppingCart getCart() {
+		return cart;
 	}
 
 }
